@@ -1,0 +1,77 @@
+// *****************
+// Global Variables
+// *****************
+
+// Text alignment
+$text-alignment: justify;
+
+// Font
+$global-font: Helvetica, Tahoma, Verdana;
+$quote-font-size: 18px;
+
+
+// Spaces
+$base-spacing-unit: 20px;
+$quote-spacing-unit: 40px;
+
+
+
+// *****************
+// Color Variables
+// *****************
+// $brand-color: #b43819;
+$brand-color: rgb(179, 30, 0);
+$dark: #212121;
+$gray: #7f7f7f;
+$light-gray: #eee;
+
+// rgb(0, 20, 115) # Dark blue
+// rgb(163, 28, 0) # Dark red
+
+
+// Background Colors
+$background-color: #fff;
+
+// Body Color
+$text-color: $dark;
+
+// Headings
+$heading-font-color: $dark;
+
+// Links
+$link-color: $dark;
+$link-color-hover: darken($dark, 15%);
+$brand-link-color: rgb(151, 0, 0);
+$brand-link-hover: darken($brand-link-color, 15%);
+
+// Border
+$border-color: $light-gray;
+
+
+// *****************
+// Typography
+// *****************
+$base-font-size: 16px;
+$base-font-style: normal;
+$base-font-variant: normal;
+$base-font-weight: normal;
+$base-font-family: $global-font;
+$base-line-height: 26px;
+
+// Headings
+// $heading-font-family: 'Fjalla One', Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-font-family: $global-font;
+
+
+$font-size-h1:  36px;
+$font-size-h2:  28px;
+$font-size-h3:  24px;
+$font-size-h4:  20px;
+$font-size-h5:  18px;
+$font-size-h6:  16px;
+
+$heading-line-height: 1.2;
+
+// Titles
+
+$title-font-family: $global-font;

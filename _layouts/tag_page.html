@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <h1 class="archive-title">{{ page.tag }}</h1>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<h1 class="page__title wow fadeInUp", style="text-transform: capitalize">{{ page.tag | escape }}</h1>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<article class="page wow fadeInUp" data-wow-delay=".2s">
+				{% if page.tag == "dancing" %}
+          <div class="tag-page-image" style="background-image: url('{{site.baseurl}}/images/body.png')"></div>
+				{% endif %}
+        {% if page.tag == "essays" %}
+          <div class="tag-page-image" style="background-image: url('{{site.baseurl}}/images/cognition-crisis.jpg')"></div>
+        {% endif %}
+			</article>
+		</div>
+	</div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+    {% for post in page.posts %}
+      {% include article-content.html %}
+    {% endfor %}
+  </div>
+</div>
