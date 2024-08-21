@@ -6,10 +6,6 @@ https://www.youtube.com/watch?v=mVXhYDFIbGs (re-edit 3:12-4:10 + chop up 4:10-5:
 one of the foolish pleasures: https://www.youtube.com/watch?v=pNdkiuER9Jw and https://www.youtube.com/watch?v=KAbimPQDu6o
 https://www.youtube.com/watch?v=9mlBIjvG0bY (to 1:20, 2:00 or 2:20)
 
-
-- change 'hero' image so that subhero fits nicely
-- change 'about' image
-
 long-term:
 - improve search to include article content
 - disqus / other comments

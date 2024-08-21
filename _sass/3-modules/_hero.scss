@@ -41,22 +41,29 @@
   height: 100%;
   padding: 20px;
   text-align: center;
-  color: #fff;
+  color: rgb(255, 255, 255);
 
   .hero__title,
   .hero__subtitle {
-    text-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    text-shadow: 0px 1px 5px rgba(0,0,0,1);
   }
 
   .hero__title {
+    // position: relative;
+    // top: -150px;
     margin-bottom: 10px;
   }
 
   .hero__subtitle {
+    // position: relative;
+    // top: -150px;
     font-size: 17px;
     line-height: 17px;
     padding-left: 10px;
+    // padding-top: 4px;
+    // padding-bottom: 3.5px;
     border-left: 5px solid $brand-color;
+    // background-color: $brand-color;
   }
 
   @media only screen and (max-width: $mobile) {
