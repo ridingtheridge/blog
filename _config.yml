@@ -1,6 +1,6 @@
 title: Riding the Ridge
 logo: # You can add own logo image.
-description: A blog experiment
+description: #A blog experiment
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://www.ridingtheridge.com/" # The base hostname & protocol for your site, e.g. http://example.com
 
