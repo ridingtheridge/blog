@@ -107,4 +107,4 @@ Pas deux fois. À notre tour donnant bras,  <br/>
 
 ---
 
-**Mercis.** À Marion Fischer, pour la photo argentique, pour l'inspiration, pour la correspondance. Ce poème ne serait jamais né sans tes encouragements !
+**Mercis.** À Marion, pour la photo argentique, pour les encouragements, pour la correspondance... Ce poème ne serait jamais né sans toi. Et au village de mon enfance.

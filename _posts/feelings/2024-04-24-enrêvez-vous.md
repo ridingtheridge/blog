@@ -3,7 +3,6 @@ layout: post
 title: "enrêvez-vous"
 description: ""
 date: 2024-03-20
-# image: images/spongebob.gif
 tags: [poems]
 ---
 
