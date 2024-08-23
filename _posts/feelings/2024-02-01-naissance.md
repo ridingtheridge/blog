@@ -2,13 +2,11 @@
 layout: post
 title: "la naissance –"
 description: ""
-date: 2024-06-14
-# image: images/naissance.jpg
+date: 2024-02-01
 tags: [poems]
 ---
 
 ![]({{site.baseurl}}/images/naissance.jpg)
-
 
 <p style="text-align: center;">
 
@@ -35,7 +33,7 @@ Encore intracé.  <br/>
 Qui se cache dans les plis de la terre  <br/>
 Sous nos bottes.  <br/>
 Mais dans un sourire au coin des lèvres  <br/>
-Qu'y s'échappera, on y verra  <br/>
+Qui s'échappera, on y verra  <br/>
 Des îlots argentés.  <br/>
 <br/>
 Ou l'horizon des derniers pins  <br/>
@@ -86,10 +84,10 @@ Qui colle aux robes des nuages.  <br/>
 Un jour, la plante des pieds dans les ruisseaux,  <br/>
 Le vent bombé d'orage  <br/>
 Claquera les portes d'une raclée d'eau pour aviser  <br/>
-Qu'il n'est pas nôtre et que nous ne sommes pas sien.  <br/>
+Qu'il n'est pas nôtre (et que nous ne sommes pas sien).  <br/>
 <br/>
 Que nous nous sommes vautrés de désir,  <br/>
-Égarés, lointains, noyés --  <br/>
+Égarés, lointains, noyés –  <br/>
 Mais nous ne sommes pas rien.  <br/>
 Les lampions seront éteints,  <br/>
 Et le vent se lèvera à l'aube et  <br/>
@@ -107,4 +105,4 @@ Pas deux fois. À notre tour donnant bras,  <br/>
 
 ---
 
-**Mercis.** À Marion, pour la photo argentique, pour les encouragements, pour la correspondance... Ce poème ne serait jamais né sans toi. Et au village de mon enfance.
+**Mercis.** À Marion, pour la photo argentique, pour les encouragements, pour notre correspondance... Ce poème ne serait jamais né sans toi. Et à Crozet, le petit village de mon enfance.

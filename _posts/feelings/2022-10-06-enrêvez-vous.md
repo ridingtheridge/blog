@@ -2,7 +2,7 @@
 layout: post
 title: "enrêvez-vous"
 description: ""
-date: 2024-03-20
+date: 2022-06-10
 tags: [poems]
 ---
 
@@ -17,12 +17,12 @@ Et ainsi de les guider dans leur
 Voyage -- dans son rêve --  
 Jusqu'au sommet de la forêt,  
 Où les ailés les accueilleront  
-Dans leur royaume  
-Des chansons.
+Dans le royaume  
+Des chansons.  
 
 Tandis que son papa y voit  
 Des chaises et des charpentes  
-À menuiser de mains (aimantes),  
+À menuiser de mains aimantes,  
 Et sa maman, un feu de cheminée  
 Pour leurs corps encore glacés  
 De l'enneigement déjà passé.  
