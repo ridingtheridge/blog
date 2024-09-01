@@ -19,6 +19,7 @@ Which is not to say we are to become liquid, lukewarm, evergreen. Quite the cont
 
 I hope this will be a place to keep track of my attempts (and failures) to ride such 'ridges'. But it would make no sense to do this alone. My dream would be for the blog to become a conversation -- and I would love to receive your messages, opinions, feedback, criticism, questions, answers. So feel free to leave comments below blog posts, or reach out to me directly here: <ridingtheridge@protonmail.com>. It would mean the world.
 <!-- In the near future I will setup a newsletter where we can keep this conversation going, on a weekly rhythm. -->
+<!-- I hope this experiment will be useful to someone, somewhere. The purpose of life, I think, is to *bloom*, and I wish nothing less for you. -->
 
 <!-- - **[Essays](../essays)**. Random "essays" about anything and everything. Take light-heartedly.
 - **[Poems](../poems)**. I'm no poet, but I love to write just the same, and hope some of them will mean something to you. Some are strongly related to the idea of holding opposites together; others not. Some will be in my mother-tongue, French; hopefully others will be in English.
@@ -29,4 +30,4 @@ I hope this will be a place to keep track of my attempts (and failures) to ride 
 <!-- *Blooming Patrick.* -->
 
 
-**Thank-yous.** This website is adapted from a template designed by the talented [Artem Sheludko](https://github.com/artemsheludko/reked). Powered by [Jekyll](https://jekyllrb.com/) and hosted by [Github Pages](https://pages.github.com/). I hope this experiment will be useful to someone, somewhere. The purpose of life, I think, is to *bloom*, and I wish nothing less for you.
+**Thank-yous.** This website is adapted from a template designed by the talented [Artem Sheludko](https://github.com/artemsheludko/reked), powered by [Jekyll](https://jekyllrb.com/), and hosted by [Github Pages](https://pages.github.com/). The pictures on this website are either my own, or were generated using [Lexica Aperture](https://lexica.art/) or [Bing Image Creator](https://www.bing.com/images/create), which are free to use for non-commercial purposes.

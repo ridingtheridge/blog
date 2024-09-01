@@ -4,7 +4,7 @@ title:  "wanting what we have"
 # title:  "Wanting What We Have"
 description: "We spend every waking moment attempting to improve our experience. What if we could just relax?"
 date:  2024-03-14
-image:  images/carrot4.webp
+image:  images/contentment.webp # generated with Lexica
 tags: [essays]
 ---
 
@@ -22,8 +22,7 @@ On the other hand, taken naively, the phrase would suggest that there is no poin
 
 Yet it is equally clear that a civilization made only of cave-monks and cave-nuns, however full of wisdom & compassion, would not be a civilization of human flourishing in its broadest sense. [Perhaps I am wrong on this point. What do you think?] There are many other things we are right to care about and to improve: poetry, physics, medicine, raising children, botany, sexual relationships, carpenting. These things are compatible with the mind of a cave-monk, but require dedicated effort. One is unlikely to spontaneously write down Einstein's equations for general relativity, or compose Debussy's Clair de Lune, while meditating in a cave. Human creativity may no doubt be enhanced by a certain satisfaction with the present moment – but also a desire to learn & create that moves us forward into the next moment; sometimes mindfully, sometimes not.
 
-![]({{site.baseurl}}/images/body.png){:style="width: 120%; max-width: 120%; margin-left: -10%"}
-*Growing the spirit into the body*
+<!-- ![]({{site.baseurl}}/images/rich.jpg){:style="width: 100%; max-width: 100%; margin-left: 0%"} -->
 
 This presents us with something of a paradox. What is the point of finding a new job, or moving to a new city, or studying biology, or writing this essay, if we spend most of our time lost in thought, never quite scratching the itch of dukkha? How can we really be content while longing for change, in some form or other? Sam Harris writes about this topic with great lucidity. He suggests that our predicament is something to be sustained, balanced on the ridge, rather than conceptually resolved:
 
