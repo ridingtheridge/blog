@@ -105,4 +105,4 @@ Pas deux fois. À notre tour donnant bras,  <br/>
 
 ---
 
-**Mercis.** À Marion, pour la photo argentique, pour les encouragements, pour notre correspondance... Ce poème ne serait jamais né sans toi. Et à Crozet, le petit village de mon enfance.
+**Merci.** À Marion, pour la photo argentique, pour les encouragements, pour notre correspondance... Ce poème ne serait jamais né sans toi. Et à Crozet, le petit village de mon enfance.

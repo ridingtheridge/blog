@@ -30,4 +30,4 @@ I hope this will be a place to keep track of my attempts (and failures) to ride 
 <!-- *Blooming Patrick.* -->
 
 
-**Thank-yous.** This website is adapted from a template designed by the talented [Artem Sheludko](https://github.com/artemsheludko/reked), powered by [Jekyll](https://jekyllrb.com/), and hosted by [Github Pages](https://pages.github.com/). The pictures on this website are either my own, or were generated using [Lexica Aperture](https://lexica.art/) or [Bing Image Creator](https://www.bing.com/images/create), which are free to use for non-commercial purposes.
+**Thank-you.** This website is adapted from a template designed by the talented [Artem Sheludko](https://github.com/artemsheludko/reked), powered by [Jekyll](https://jekyllrb.com/), and hosted by [Github Pages](https://pages.github.com/). The pictures on this website are either my own, or were generated using [Lexica Aperture](https://lexica.art/) or [Bing Image Creator](https://www.bing.com/images/create), which are free to use for non-commercial purposes.

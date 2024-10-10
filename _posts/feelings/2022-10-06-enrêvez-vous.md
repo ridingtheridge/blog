@@ -36,4 +36,4 @@ Sans le songe ivre de l'enfant ?
 
 ---
 
-**Mercis.** Le poème s'appellait, à l'origine, « Rêve! ». Merci à mon amie Andrea, qui m'a récemment offert le *Spleen de Paris* de Baudelaire, où j'ai découvert et dérobé le superbe titre, *Enivrez-vous*.
+**Merci.** Le poème s'appellait, à l'origine, « Rêve! ». Merci à mon amie Andrea, qui m'a récemment offert le *Spleen de Paris* de Baudelaire, où j'ai découvert et dérobé le superbe titre, *Enivrez-vous*.
