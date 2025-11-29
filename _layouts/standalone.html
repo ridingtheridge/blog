@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body class="standalone-page">
+
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    
+    {% if page.image and page.image != "" %}
+    <!-- Hero splash image with title overlay -->
+    <div class="hero-splash" style="background-image: url('{{ page.image | relative_url }}')">
+      <div class="hero-overlay">
+        <div class="hero-text">
+          {% if page.title %}
+          <h1 class="hero-title">{{ page.title }}</h1>
+          {% endif %}
+          {% if page.subtitle %}
+          <p class="hero-subtitle">{{ page.subtitle }}</p>
+          {% endif %}
+        </div>
+        <div class="hero-scroll-indicator" onclick="document.querySelector('.standalone-wrapper').scrollIntoView({behavior: 'smooth'})">↓</div>
+      </div>
+    </div>
+    {% endif %}
+    
+    <div class="standalone-wrapper">
+      <article class="standalone-post">
+        {% if page.title and page.image == nil or page.image == "" %}
+        <header class="standalone-header">
+          <h1 class="standalone-title">{{ page.title }}</h1>
+        </header>
+        {% endif %}
+        <div class="post__content">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  </main> 
+  <!-- end content -->
+
+  {% include javascripts.html %}
+  
+</body>
+
+</html>
+

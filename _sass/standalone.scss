@@ -1,0 +1,318 @@
+/* ============================================
+   STANDALONE PAGE LAYOUT STYLES
+   ============================================
+   This stylesheet provides styling for standalone pages
+   that don't use the standard blog layout (no header, 
+   footer, or navigation).
+   ============================================ */
+
+
+/* ============================================
+   1. BASE PAGE STYLES
+   ============================================ */
+
+/* Remove default margins and set aged parchment background */
+body.standalone-page {
+  background: #e8dcc8;  /* Warm aged parchment - matches illustration borders */
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Hide the "back to top" button on standalone pages */
+body.standalone-page .top {
+  display: none !important;
+}
+
+
+/* ============================================
+   2. HERO SECTION - Full-screen landing
+   ============================================ */
+
+/* Full-screen hero image container */
+.hero-splash {
+  width: 100%;
+  height: 100vh;  /* Takes full viewport height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Vignette overlay - aged parchment fade on edges */
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: 
+    linear-gradient(to top, rgba(232, 220, 200, 1) 0%, rgba(0, 0, 0, 0) 5%),     /* Bottom fade to parchment */
+    rgba(0, 0, 0, 0);  /* Transparent base */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+}
+
+/* Container for title and subtitle */
+.hero-text {
+  text-align: center;
+}
+
+/* Main title on hero image */
+.hero-title {
+  font-size: 5em;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 0.3em 0;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.7);
+  line-height: 1.2;
+}
+
+/* Subtitle below main title */
+.hero-subtitle {
+  font-size: 2.2em;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 1.0);
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
+/* Clickable scroll-down arrow */
+.hero-scroll-indicator {
+  position: absolute;
+  top: 75vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3.5em;
+  color: #fff;
+  animation: bounce 4s infinite;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 1.0);
+}
+
+.hero-scroll-indicator:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+/* Bouncing animation for scroll arrow */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+
+/* ============================================
+   3. CONTENT WRAPPER - Story content below hero
+   ============================================ */
+
+/* Main content container - starts after hero */
+.standalone-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 60px 20px 60px;  /* Top, sides, bottom */
+  background: #e8dcc8;  /* Same aged parchment as page background */
+}
+
+/* Article container */
+.standalone-post {
+  background: transparent;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* Header (used when no hero image) */
+.standalone-header {
+  text-align: center;
+  margin-bottom: 3em;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Title (used when no hero image) */
+.standalone-title {
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+  color: #333;
+}
+
+
+/* ============================================
+   4. TYPOGRAPHY - Paragraph and heading styles
+   ============================================ */
+
+/* Paragraph styling for story text */
+.standalone-page .post__content p {
+  font-size: 1em;
+  margin-bottom: 2em;
+  line-height: 1.8;  /* Comfortable reading line height */
+  text-align: justify;
+  white-space: pre-line;  /* Preserves line breaks from markdown */
+}
+
+/* Section headings (h3) */
+.standalone-page .post__content h3 {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* Remove top margin from first heading */
+.standalone-page .post__content h3:first-of-type {
+  margin-top: 0;
+}
+
+
+/* ============================================
+   5. SECTION BREAKS - Visual story separators
+   ============================================ */
+
+/* Paragraph containing only <br> becomes a decorative break */
+.standalone-page .post__content p:has(br:only-child) {
+  text-align: center;
+  margin: 3em 0;
+  height: 0;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The decorative symbol (✵) for section breaks */
+.standalone-page .post__content p:has(br:only-child)::before {
+  content: "✵";
+  color: #000;
+  font-size: 1.2em;
+}
+
+
+/* ============================================
+   6. BLOCKQUOTES - For quoted text
+   ============================================ */
+
+/* Quote container styling */
+.standalone-page .post__content blockquote {
+  font-style: italic;
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 1.2em 3em;
+  border-left: 1px solid #666;  /* Left accent line */
+  padding-left: 1.5em;
+}
+
+/* Paragraphs within quotes */
+.standalone-page .post__content blockquote p {
+  margin-bottom: 0.5em;
+}
+
+/* Citation styling within quotes */
+.standalone-page .post__content blockquote cite {
+  color: #666;
+  font-size: 0.9em;
+}
+
+
+/* ============================================
+   7. IMAGES - Inline images and figures
+   ============================================ */
+
+/* Basic image styling */
+.standalone-page .post__content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2em auto;  /* Centered with vertical spacing */
+}
+
+/* Figure container (for images with captions) */
+.standalone-page .post__content figure {
+  margin: 2em 0;
+  text-align: center;
+}
+
+/* Image caption styling */
+.standalone-page .post__content figcaption {
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+
+/* ============================================
+   8. MOBILE RESPONSIVENESS - Tablet and phone
+   ============================================ */
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+  
+  /* Hero stays full height on mobile */
+  .hero-splash {
+    height: 100vh;
+  }
+  
+  /* Smaller title on mobile */
+  .hero-title {
+    font-size: 3em;
+  }
+  
+  /* Smaller subtitle on mobile */
+  .hero-subtitle {
+    font-size: 1.5em;
+  }
+  
+  /* Smaller scroll arrow on mobile */
+  .hero-scroll-indicator {
+    font-size: 2.5em;
+    top: 75vh;
+  }
+  
+  /* Tighter padding for content on mobile */
+  .standalone-wrapper {
+    padding: 40px 20px 40px;
+  }
+  
+  /* Smaller standalone title on mobile */
+  .standalone-title {
+    font-size: 2em;
+  }
+}
+
+
+.story-byline {
+  text-align: center;
+  margin: 5em 0em 0em;
+  padding-top: 3em;
+  font-size: 1em;
+  color: #444;
+  // border-top: 0.5px solid #444;
+}
+
+.author-name {
+  font-style: italic;
+}
+
+.story-date {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+}
